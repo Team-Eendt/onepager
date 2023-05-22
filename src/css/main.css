@@ -1,17 +1,23 @@
 * {
     padding: 0;
     border: 0;
-    max-width: 70vw;
+    max-width: 140vh;
     margin: auto;
 }
 
 header {
     text-align: center;
-    padding: 10px 0;
+    padding: 2px 0;
+    font-family: Arial, serif;
 }
 
 main {
-    background-color: yellow;
+    background-color: #3DD1E7;
+}
+
+.h1 {
+    font-family: Arial, sans-serif;
+    font-size: 28px;
 }
 
 #team {
@@ -48,6 +54,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     width: 70vw;
+    font-family: Arial, serif;
 }
 
 .duck {
@@ -55,31 +62,68 @@ main {
     top: -20px;
     z-index: 2;
     color: white;
+    font-family: Arial, serif;
 }
 
 #contact-us{
-    background-color: green;
-    color: white;
-    padding: 15px 32px;
-    cursor: pointer;
-    width: 35%;
-    margin: 1vh auto;
+    background-color: #2276B3;
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: #000000;
+    display: flex;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+    position: relative;
     text-align: center;
-    text-decoration: none;
-    font-size: 16px;
+    text-decoration: none #000000 solid;
+    text-decoration-thickness: auto;
+    width: 100%;
+    max-width: 460px;
+    cursor: pointer;
+    transform: rotate(-2deg);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
 
 #concepten {
     margin: auto;
     max-width: 40vw;
+    font-family: Arial, serif;
+    padding: 10px;
 }
 
 .concept {
-    padding-bottom: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius:50%;
+    background: #eaea61;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.concept2 {
+    width: 300px;
+    height: 300px;
+    border-radius:50%;
+    background: #eaea61;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .concept h2 {
     text-align: center;
+    font-family: Arial, serif;
 }
 
 #pond {
@@ -88,17 +132,21 @@ main {
 
 #emails h3 {
     margin: auto auto;
-    padding: 5px 0px;
+    padding: 5px;
+    font-family: Arial, serif;
 }
 
 #emails {
     text-align: center;
 /*  display: flex;
     justify-content: space-evenly; */
+    font-family: Arial, serif;
 }
 
 footer {
-    margin-top: 1vh;
+    margin-top: 7px;
     display: flex;
-    background-color: grey;
+    background-color: #2276B3;
+    font-family: Arial, serif;
+    padding: 10px;
 }
