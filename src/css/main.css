@@ -69,7 +69,19 @@ main {
     font-size: 16px;
 }
 
+#emails h3 {
+    margin: auto auto;
+    padding: 5px 0px;
+}
+
+#emails {
+    text-align: center;
+/*  display: flex;
+    justify-content: space-evenly; */
+}
+
 footer {
     margin-top: 1vh;
+    display: flex;
     background-color: grey;
 }
