@@ -82,6 +82,10 @@ main {
     text-align: center;
 }
 
+#pond {
+    display: none;
+}
+
 #emails h3 {
     margin: auto auto;
     padding: 5px 0px;
