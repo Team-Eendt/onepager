@@ -69,6 +69,19 @@ main {
     font-size: 16px;
 }
 
+#concepten {
+    margin: auto;
+    max-width: 40vw;
+}
+
+.concept {
+    padding-bottom: 10px;
+}
+
+.concept h2 {
+    text-align: center;
+}
+
 #emails h3 {
     margin: auto auto;
     padding: 5px 0px;
