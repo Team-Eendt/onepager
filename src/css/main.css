@@ -95,6 +95,11 @@ main {
     max-width: 40vw;
     font-family: Arial, serif;
     padding: 10px;
+    justify-content: center;
+}
+
+.concept-wrapper {
+    width: 100vw;
 }
 
 .concept {
@@ -105,8 +110,8 @@ main {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
-    padding-left: 15px;
     padding-right: 15px;
+    padding-left: 15px;
 }
 
 .concept2 {
@@ -114,16 +119,20 @@ main {
     height: 300px;
     border-radius:50%;
     background: #eaea61;
-    display: table-cell;
+    flex-direction: column;
     text-align: center;
     vertical-align: middle;
     padding-left: 15px;
     padding-right: 15px;
+    justify-content: center;
+    align-content: center;
+    display: grid;
 }
 
-.concept h2 {
+.concept2 h2 {
     text-align: center;
     font-family: Arial, serif;
+
 }
 
 #pond {
