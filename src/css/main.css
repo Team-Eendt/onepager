@@ -9,10 +9,12 @@ header {
     text-align: center;
     padding: 2px 0;
     font-family: Arial, serif;
+    background-color: #e6f7fe;
+    color: #ffb202;
 }
 
 main {
-    background-color: #3DD1E7;
+    background-color: #e6f7fe;
 }
 
 .h1 {
@@ -22,8 +24,9 @@ main {
 
 #team {
     padding-top: 100px;
-    background-color: white;
+    background-color: #e6f7fe;
     position: relative;
+
 }
 
 /* waves start  */
@@ -45,7 +48,7 @@ main {
 }
 
 .custom-shape-divider-bottom-1684266820 .shape-fill {
-    fill: #2276B3;
+    fill: #5cbfee;
 }
 /* waves end  */
 
@@ -66,10 +69,10 @@ main {
 }
 
 #contact-us{
-    background-color: #2276B3;
+    background-color: #ffb202;
     border: 0 solid #E5E7EB;
     box-sizing: border-box;
-    color: #000000;
+    color: white;
     display: flex;
     font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 1rem;
@@ -82,7 +85,7 @@ main {
     text-decoration: none #000000 solid;
     text-decoration-thickness: auto;
     width: 100%;
-    max-width: 460px;
+    max-width: 250px;
     cursor: pointer;
     transform: rotate(-2deg);
     user-select: none;
@@ -90,9 +93,23 @@ main {
     touch-action: manipulation;
 }
 
+#design-question {
+    text-align: center;
+    padding: 2px 0;
+    font-family: Arial, serif;
+    max-width: 700px;
+}
+
+#mvp {
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: Arial, serif;
+    max-width: 700px;
+}
+
 #concepten {
     margin: auto;
-    max-width: 40vw;
+    max-width: 120vh;
     font-family: Arial, serif;
     padding: 10px;
     justify-content: center;
@@ -114,25 +131,79 @@ main {
     padding-left: 15px;
 }
 
-.concept2 {
-    width: 300px;
-    height: 300px;
-    border-radius:50%;
-    background: #eaea61;
-    flex-direction: column;
+#miro{
+    background-color: #ffb202;
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: white;
+    /*display: flex;*/
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    /*font-size: 1rem;*/
+    font-weight: 700;
+    /*justify-content: center;*/
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+    /*position: relative;*/
     text-align: center;
-    vertical-align: middle;
-    padding-left: 15px;
-    padding-right: 15px;
-    justify-content: center;
-    align-content: center;
-    display: grid;
+    text-decoration: none #000000 solid;
+    text-decoration-thickness: auto;
+    /*width: 100%;*/
+    max-width: 250px;
+    cursor: pointer;
+    transform: rotate(-2deg);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
 
-.concept2 h2 {
+#onedrive{
+    background-color: #ffb202;
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: white;
+    /*display: flex;*/
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    /*font-size: 1rem;*/
+    font-weight: 700;
+    /*justify-content: center;*/
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+    /*position: relative;*/
     text-align: center;
-    font-family: Arial, serif;
+    text-decoration: none #000000 solid;
+    text-decoration-thickness: auto;
+    /*width: 100%;*/
+    max-width: 250px;
+    cursor: pointer;
+    transform: rotate(-2deg);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
 
+#figma{
+    background-color: #ffb202;
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: white;
+    /*display: flex;*/
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    /*font-size: 1rem;*/
+    font-weight: 700;
+    /*justify-content: center;*/
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+    /*position: relative;*/
+    text-align: center;
+    text-decoration: none #000000 solid;
+    text-decoration-thickness: auto;
+    /*width: 100%;*/
+    max-width: 250px;
+    cursor: pointer;
+    transform: rotate(-2deg);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
 
 #pond {
@@ -155,7 +226,7 @@ main {
 footer {
     margin-top: 7px;
     display: flex;
-    background-color: #2276B3;
+    background-color: #5cbfee;
     font-family: Arial, serif;
     padding: 10px;
 }
