@@ -202,9 +202,6 @@ main {
     touch-action: manipulation;
 }
 
-#pond {
-    display: none;
-}
 
 #emails h3 {
     margin: auto auto;
@@ -228,7 +225,7 @@ main {
 }
 
 #team-rol {
-    width: 300px;
+    width: 280px;
     display: table-cell;
     text-align: center;
     vertical-align: middle;
