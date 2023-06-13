@@ -253,6 +253,6 @@ footer {
     position: absolute;
     display: flex;
     justify-content: space-evenly;
-    width: 140vh;
+    width: 70vw;
     font-family: Arial, serif;
 }
